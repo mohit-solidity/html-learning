@@ -1,0 +1,37 @@
+/*
+    Demonstrate:
+        Flex Container
+        Flex Direction
+        Justify Content
+        Align Items
+        Gap
+        Flex Items
+        Horizontal & Vertical Alignment
+*/
+*{
+    box-sizing: border-box;
+}
+/*This Is The Flex Container*/
+.project-container {
+    display: flex;
+
+    /* Flex Direction */
+    flex-direction: row;
+
+    /* Horizontal Alignment */
+    justify-content: center;
+
+    /* Vertical Alignment */
+    align-items: center;
+
+    /* Space Between Flex Items */
+    gap: 30px;
+}
+.project-card {
+    width: 350px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+

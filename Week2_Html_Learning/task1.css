@@ -1,0 +1,73 @@
+/*Scrolling Behaviour*/
+html{
+    scroll-behavior: smooth;
+}
+/*Universal Selector*/
+*{
+    box-sizing: border-box;
+}
+
+/*Element Selectors(Selecting All Tags Directly)*/
+h1{
+    font-size: 35px;
+    color: brown;
+}
+h2{
+    color: rgb(203, 35, 153);
+}
+p{
+    color: rgb(55, 12, 12);
+}
+
+/*Class Selectors(Giving Class Name In HTML File)*/
+.site-title{
+    color: rgb(13, 227, 127);
+    font-size: 30px;
+    text-align: center;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+
+.photo{
+    background-color: rgb(183, 244, 244);
+}
+
+/*ID Selectors*/
+#home{
+    background-color: rgb(183, 244, 244);
+}
+#about{
+    background-color: rgb(227, 241, 157);
+}
+#skills{
+    background-color: rgb(227, 241, 157);
+}
+#projects{
+    background-color: rgb(227, 241, 157);
+}
+#contact{
+    background-color: rgb(227, 241, 157);
+}
+#faq{
+    background-color: rgb(227, 241, 157);
+}
+#table{
+    background-color: rgb(227, 241, 157);
+}
+
+/*Header*/
+header{
+    background-color: rgb(215, 214, 191);
+    text-align: left;
+}
+/*Footer*/
+footer {
+    background-color: #d0d6e7;
+    color: #ffffff;
+    text-align: center;
+}

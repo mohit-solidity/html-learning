@@ -1,0 +1,244 @@
+/*Your webpage should properly adapt to:
+    Mobile Devices
+    Tablets
+    Desktop Screens
+Use CSS Media Queries to adjust:
+    Layout
+    Font Sizes
+    Spacing
+    Images
+    Cards
+    Navigation
+*/
+
+/*For Desktops*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {
+    padding: 30px;
+
+    background-color: #1e293b;
+    color: white;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav {
+    padding: 20px;
+
+    background-color: #334155;
+
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+section {
+    margin: 30px 0;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+}
+
+section h1 {
+    font-size: 32px;
+}
+
+.image {
+    display: block;
+
+    width: 300px;
+    height: 300px;
+
+    max-width: 100%;
+
+    margin: 20px auto;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.project-card {
+    width: 48%;
+
+    display: inline-block;
+    vertical-align: top;
+
+    padding: 25px;
+    margin: 1%;
+
+    background-color: #f8fafc;
+
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+}
+
+.project-card h2 {
+    font-size: 25px;
+}
+
+
+/*For Tablets (max-width - 768 px means if the width is max 768 and above mobile width, this will run)*/
+
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    nav li {
+        margin: 5px 8px;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    section {
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    section h1 {
+        font-size: 28px;
+    }
+
+    .image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .project-card {
+        width: 100%;
+
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .project-card h2 {
+        font-size: 23px;
+    }
+}
+
+
+/*For Mobiles*/
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 8px 0;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    section {
+        margin: 15px 0;
+        padding: 15px;
+    }
+
+    section h1 {
+        font-size: 24px;
+    }
+
+    .image {
+        width: 160px;
+        height: 160px;
+        border: 2px solid black;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .project-card {
+        width: 100%;
+
+        margin: 8px 0;
+        padding: 15px;
+    }
+
+    .project-card h2 {
+        font-size: 21px;
+    }
+}
