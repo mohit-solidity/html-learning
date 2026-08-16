@@ -72,14 +72,14 @@ console.log("NOT :", !knowsPython);
 // Increment Operator
 
 let projects = 5;
-
+console.log("Projects Before Increment :", projects);
 projects++;
 
 console.log("Projects after increment :", projects);
 
 
 // Decrement Operator
-
+console.log("Projects Before Decrement :", projects);
 projects--;
 
 console.log("Projects after decrement :", projects);
