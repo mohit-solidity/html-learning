@@ -5,31 +5,30 @@ let message = document.getElementById("message");
 let details = document.getElementById("details");
 let skills = document.getElementById("skills");
 
-
 // Changing text content
 
-title.textContent = "My Student Information";
+title.textContent = "Mohit Sharma - Web Developer";
 
-message.textContent = "This information was updated using JavaScript.";
-
+message.textContent =
+  "I am learning Web Development and Blockchain Development.";
 
 // Changing HTML content
 
 details.innerHTML = `
     <p><strong>Name:</strong> Mohit Sharma</p>
-    <p><strong>Course:</strong> Computer Science</p>
-    <p><strong>Year:</strong> 3rd Year</p>
+    <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Solidity</p>
+    <p><strong>Interest:</strong> Web3 Development</p>
 `;
-
 
 // Changing CSS styles
 
 title.style.color = "blue";
-message.style.fontSize = "20px";
-message.style.backgroundColor = "#eeeeee";
+title.style.fontSize = "32px";
 
+message.style.color = "green";
+message.style.fontSize = "18px";
 
-// Adding a new element
+// Adding elements
 
 let newSkill = document.createElement("li");
 
@@ -37,15 +36,11 @@ newSkill.textContent = "JavaScript";
 
 skills.appendChild(newSkill);
 
-
-// Adding another element
-
 let anotherSkill = document.createElement("li");
 
-anotherSkill.textContent = "React";
+anotherSkill.textContent = "Solidity";
 
 skills.appendChild(anotherSkill);
-
 
 // Removing an element
 

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  flex: 1;
+  min-width: 180px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#students {
+  display: grid;
+  gap: 15px;
+}
+
+.student {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.student button {
+  margin-top: 10px;
+}
