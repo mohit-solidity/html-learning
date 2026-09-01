@@ -1,0 +1,14 @@
+Project Title - Student Management System
+
+objective - To Create A Simple Student Management System, Where Users Will Be Able To Add, Update, Delete Students
+
+Target Users - Students, Teachers, Small educational institutes
+
+Main Features - Add Student, Delete Student, Update Student, Form Validation
+
+Technologies Used - HTML5, CSS, JavaScript
+
+Brief Description - The Student Management System is a browser-based application designed to manage basic student records. Users can enter student details through a form and add them to the application. The records will be stored using JavaScript arrays and objects and displayed dynamically on the webpage.
+                    The application will allow users to search for specific students, edit existing records, and delete records when they are no longer required. JavaScript functions, conditional statements, loops, and array methods will be used to manage the application logic. DOM manipulation and events will make the webpage respond dynamically to user actions.
+                    The project will be built using only HTML, CSS, and JavaScript, making it suitable for demonstrating the concepts learned during Weeks 3 and 4.
+
