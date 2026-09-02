@@ -102,6 +102,7 @@ form.addEventListener("submit", function (event) {
     displayStudents();
 
     form.reset();
+    alert(`Student Added Successful`);
 });
 
 
