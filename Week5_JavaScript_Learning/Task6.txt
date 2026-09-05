@@ -1,0 +1,34 @@
+Student Management System
+
+Project Overview -
+Student Management System is a simple web application made using HTML, CSS, and JavaScript. It is used to add and manage student records like name, age, course, and marks.
+
+Features -
+-> Form validation
+-> Display student records
+-> Add students
+-> Delete students
+-> Search students
+
+Technologies Used -
+-> HTML
+-> CSS
+-> JavaScript
+
+JavaScript Concepts Used -
+I used variables, functions, arrays, objects, conditions, loops, and array methods. I also used DOM manipulation and events to make the website interactive.
+
+Screenshots -
+Screenshots of the working project are added in the `screenshots` folder.
+
+Challenges -
+The main challenge was making the student records update automatically when adding, deleting students.
+
+Solution -
+I stored the students in an array of objects and used JavaScript functions to update the webpage whenever the data changed.
+
+What I Learned -
+I learned how to combine JavaScript concepts with HTML and CSS to make a working interactive website. I also got better at using DOM manipulation and events.
+
+Future Improvements -
+I can add local storage, sorting, course filters, and better validation in the future.
