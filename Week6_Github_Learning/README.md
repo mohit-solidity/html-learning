@@ -20,13 +20,13 @@ HTML, CSS, JavaScript, Git, GitHub, and GitHub Pages.
 I used functions, arrays, objects, loops, conditions, array methods, DOM manipulation, and events.
 
 # Screenshots
-Screenshots of the project are included with the submission.
+it is in assests
 
 # GitHub Repository
-Add GitHub repository link here.
+https://github.com/mohit-solidity/html-learning
 
 # Live Website
-Add GitHub Pages link here.
+https://mohit-solidity.github.io/html-learning/
 
 # Challenges
 The main challenge was connecting JavaScript with the HTML and updating the student records dynamically. Making the website responsive was also a challenge.
